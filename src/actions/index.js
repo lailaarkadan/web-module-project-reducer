@@ -19,7 +19,7 @@ export const changeOperation = (operation) => {
 }
 
 export const clearDisplay = () => {
-    return({type:CLEAR_DISPLAY});
+    return({type:CLEAR_DISPLAY})
 }
 
 export const addToMemory = () => {

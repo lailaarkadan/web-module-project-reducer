@@ -61,7 +61,7 @@ switch(action.type) {
    return({
        ...state,
        memory: 0
-   });
+   })
 
    default:
        return state;
